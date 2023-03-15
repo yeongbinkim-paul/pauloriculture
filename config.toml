@@ -1,5 +1,6 @@
-baseURL = "https://quartz.jzhao.xyz/"
+baseURL = "https://yeongbinkim-paul.github.io/pauloriculture/"
 languageCode = "en-us"
+googleAnalytics = "G-9TMZJ02PR1"
 relativeURLs = false
 disablePathToLower = true
 ignoreFiles = [
