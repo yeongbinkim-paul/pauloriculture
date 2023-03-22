@@ -6,3 +6,5 @@ ENV PATH="/root/go/bin:$PATH"
 
 RUN mkdir quartz
 WORKDIR /quartz
+
+ENTRYPOINT ["make" ,"serve"]

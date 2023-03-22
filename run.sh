@@ -4,5 +4,3 @@ docker run --rm -it \
     -p 1313:1313 \
     --name pauloriculture \
     pauloriculture:1.0;
-
-make serve
