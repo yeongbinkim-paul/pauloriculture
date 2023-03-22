@@ -14,7 +14,7 @@ tags:
 
 [NFT Market Overview](https://dune.com/hildobby/NFTs)를 리뷰해봤습니다.
 
-### Overview
+### 1. Overview
 
 ![Screenshot](/notes/dune_nft/images/market_overview/01_overview.png)
 
@@ -23,7 +23,7 @@ tags:
 데이터 양이 기본적으로 많고, 최신 데이터가 Trading에 좀 더 유의미하다는 점을 감안해, 최근 1주 데이터를 보여줍니다.
 하단 **NFT Collection Ranked by Volume** 차트의 Trade는 실제 trade 가능한 웹사이트의 링크라서 큰 의미는 없습니다.
 
-### 1. Volume
+### 2. Volume
 
 ![Screenshot](/notes/dune_nft/images/market_overview/02_volume.png)
 
@@ -32,7 +32,7 @@ tags:
 Bar Chart는 거래량 총합을 확인할 수 있다는 점에서 전반적인 거래량 추이와 시계열로 Marketplace 별 점유율을 가늠할 수 있습니다.
 Stacked Area Chart는 이 Bar Chart에서 확인한 점유율을 직관적으로 표현한 것입니다.
 
-### 2. Transactions
+### 3. Transactions
 
 ![Screenshot](/notes/dune_nft/images/market_overview/03_transactions.png)
 
@@ -40,7 +40,7 @@ Stacked Area Chart는 이 Bar Chart에서 확인한 점유율을 직관적으로
 
 거래 횟수 차트를 거래량 차트와 비교해서 보면, 최근 Blur의 거래량이 급등해 Opensea의 거래량을 크게 넘어섰지만, 그것이 거래 횟수까지 이어지지는 않은 것을 알 수 있습니다. 아직 Opensea의 활성화 유저가 많이 남아있음을 추측할 수 있습니다.
 
-### 3. Traders
+### 4. Traders
 
 ![Screenshot](/notes/dune_nft/images/market_overview/04_traders.png)
 
@@ -58,7 +58,7 @@ Stacked Area Chart는 이 Bar Chart에서 확인한 점유율을 직관적으로
 ![Screenshot](/notes/dune_nft/images/market_overview/04_2_traders_area_2.png)
 위 스크린샷과 Dashboard의 Bar Chart를 비교해보면 y축의 값이 다른 것을 알 수 있습니다.
 
-### 4. Token Standards
+### 5. Token Standards
 
 ![Screenshot](/notes/dune_nft/images/market_overview/05_token_standards.png)
 
@@ -78,7 +78,7 @@ EERC721의 경우에는 token id 별로 1개만 거래 가능한 데에 반해, 
 - 따라서, 일부 거래 대금 데이터는 부정확하게 계산되었다.
 - 다만, 실제로도 Bundle 거래가 일어날 경우에는 판매자 역시 Bundle에 포함된 NFT들의 개별 가격을 추정한 다음 합산해서 판매하고, 이는 구매자 입장에서도 동일하게 적용되기 때문에, 실제 판매자와 구매자 입장에서는 회계 처리가 필요한 상황이 아니라면 본 데이터를 사용하는 것에 큰 문제가 없다.
 
-### 5. Further Study
+## Further Study
 
 Spellbook을 조사하는 과정에서 좀 더 조사하고 싶은 것이 생겼습니다.
 Opensea에서 발생한 Bundle 거래는 정확한 구매 대금을 추정하기 어렵다는 사실은 확인했는데,

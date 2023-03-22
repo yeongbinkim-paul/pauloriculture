@@ -14,7 +14,7 @@ Date : March 22, 2023
 
 Reviewed [NFT Market Overview](https://dune.com/hildobby/NFTs)
 
-### Overview
+### 1. Overview
 
 ![Screenshot](/notes/dune_nft/images/market_overview/01_overview.png)
 
@@ -23,7 +23,7 @@ You can see that we have constructed a pie chart using **Volume / Number of trad
 Given that the amount of data is large by default, and that more recent data is more meaningful for trading, they show the most recent 1-week data.
 The trade column in the **NFT Collection Ranked by Volume** chart below are links to actual tradeable websites, so they don't mean much.
 
-### 1. Volume
+### 2. Volume
 
 ![Screenshot](/notes/dune_nft/images/market_overview/02_volume.png)
 
@@ -34,7 +34,7 @@ The Stacked Area Chart is an intuitive representation of the share seen in this 
 
 
 
-### 2. Transactions
+### 3. Transactions
 
 ![Screenshot](/notes/dune_nft/images/market_overview/03_transactions.png)
 
@@ -42,7 +42,7 @@ The transactions chart is organized the same as the volume chart, with the numbe
 
 If you compare the number of trades chart to the volume chart, you can see that Blur's volume has recently spiked and surpassed Opensea's volume, but that hasn't translated to the number of trades. We can assume that there are still a lot of active users on Opensea.
 
-### 3. Traders
+### 4. Traders
 
 ![Screenshot](/notes/dune_nft/images/market_overview/04_traders.png)
 
@@ -61,7 +61,7 @@ I was able to see these results, and there are a few takeaways from this compari
 ![Screenshot](/notes/dune_nft/images/market_overview/04_2_traders_area_2.png)
 If you compare the screenshot above with the Bar Chart in the Dashboard, you can see that the values on the y-axis are different.
 
-### 4. Token Standards
+### 5. Token Standards
 
 ![Screenshot](/notes/dune_nft/images/market_overview/05_token_standards.png)
 
@@ -81,7 +81,7 @@ This tells us the following:
 - As a result, some transaction value data was calculated incorrectly.
 - However, in bundle transactions, the seller estimates the individual prices of the NFTs in the bundle and sells them together, and the same applies to the buyer, so there is no problem with using this data unless there is an accounting requirement for both the seller and buyer.
 
-### 5. Further Study
+## Further Study
 
 While researching Spellbook, something occurred to me that I wanted to investigate further.
 I've seen that it's difficult to estimate the exact purchase price for bundle transactions on Opensea.
