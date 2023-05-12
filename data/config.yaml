@@ -14,7 +14,7 @@ enableGitHubEdit: false
 enableMermaid: true
 GitHubLink: https://github.com/yeongbinkim-paul/pauloriculture/tree/hugo/content
 search:
-  enableSemanticSearch: false
+  enableSemanticSearch: true
   operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
   operandIndexId: "REPLACE-WITH-YOUR-OPERAND-INDEX-ID"
 description:
