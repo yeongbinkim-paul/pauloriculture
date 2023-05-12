@@ -1,3 +1,4 @@
+### Tip Page
 ### How to add images
 ![Keywords](/directory/image.png)
 ### Italic
