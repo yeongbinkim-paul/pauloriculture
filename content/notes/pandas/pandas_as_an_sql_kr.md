@@ -9,7 +9,7 @@ tags:
 ---
 
 
-## SQL로 이해하는 Pandas
+## SQL처럼 쓰는 Pandas
 작성 일자 : 2023년 6월 20일
 
 Pandas를 SQL문처럼 공부해봤습니다.
@@ -54,8 +54,8 @@ table2 = pd.DataFrame(
 )
 
 result = (
-    table.merge(table2, on='a', how='left') # Join 부터 시작
-        [['a', 'b', 'c', 'd', 'e']] # Select
+    table.merge(table2, on='a', how='left') # Join
+        [['a', 'b', 'c', 'd', 'e'] ] # Select
         .rename(columns={'b': 'b1', 'c': 'c1'}) # Alias
         .query('a > 0 & (b1 == "None" | c1 > 0)') # Where
         .groupby(['a', 'b1', 'c1', 'd', 'e']) # Group by

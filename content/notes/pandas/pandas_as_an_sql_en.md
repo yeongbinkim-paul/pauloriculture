@@ -9,7 +9,7 @@ tags:
 ---
 
 
-## SQL로 이해하는 Pandas
+## Pandas as an SQL
 Date : June 20, 2023
 
 I studied PANDAS as an SQL Statement
@@ -54,8 +54,8 @@ table2 = pd.DataFrame(
 )
 
 result = (
-    table.merge(table2, on='a', how='left') # Join 부터 시작
-        [['a', 'b', 'c', 'd', 'e']] # Select
+    table.merge(table2, on='a', how='left') # Join
+        [['a', 'b', 'c', 'd', 'e'] ] # Select
         .rename(columns={'b': 'b1', 'c': 'c1'}) # Alias
         .query('a > 0 & (b1 == "None" | c1 > 0)') # Where
         .groupby(['a', 'b1', 'c1', 'd', 'e']) # Group by
