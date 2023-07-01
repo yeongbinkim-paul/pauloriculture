@@ -35,17 +35,16 @@ It's well known that you can achieve high productivity, low complexity, and easy
 ## Demand forecasting in the data warehouse design process
 If there is one remaining challenge for data engineers with good domain knowledge, it's demand forecasting.
 Demand forecasting refers to forecasting the demand for data that consumers will frequently use in the data warehouse for analytical purposes and preparing that data in a usable form.
-Most data is multidimensional, meaning that the same data can be separated into multiple dimensions and used for analysis.
-As mentioned earlier, Data engineers must work with data based on well-developed logic.
-When dealing with multidimensional data, you must analyze multiple dimensions to see correlations.
-However, not all correlations lead to meaningful causal analysis, so data engineers must have many conversations with consumers who use the data they create.
-Often, the consumers, in this case, will be people in cross-functional roles, such as data analysts, backend engineers, project managers, and product managers. These people have the same goal: to work with data, so they should have a broad understanding of a well-defined goal.
 In creating a data product, you must draw insights from multiple data points. As a data engineer, you work closest to the data sources, so you have the first access to this data and can easily do the most basic analysis.
+Most data is multidimensional, meaning that the same data can be separated into multiple dimensions and used for analysis. When dealing with multidimensional data, you must analyze multiple dimensions to see correlations.
+However, not all correlations lead to meaningful causal analysis, so data engineers must have many conversations with consumers who use the data they create.
+*Often, the consumers, in this case, will be people in cross-functional roles, such as data analysts, backend engineers, project managers, and product managers. These people have the same goal: to work with data, so they should have a broad understanding of a well-defined goal.*
+Then you should get ideas of how your data pipeline stores data and how it should be updated.
 
-## 내가 데이터 아키텍쳐를 만든다면,
-그렇기 때문에, 잘 갖춰진 도메인 지식을 바탕으로 가장 먼저 데이터의 전반적인 이해를 갖추고, 소비자의 수요를 이해한 다음에 이에 따라 데이터 아키텍쳐를 설계할 수 있어야 한다고 생각합니다.
-이 과정을 세심하게 따르지 않는다면, 여러 가지 데이터 수요에 대응하지 못하고, 수시로 데이터 스키마를 변경하거나 데이터 아키텍쳐 리팩토링을 하느라 시간을 소모하게 될 것이라고 생각합니다.
-제가 데이터 아키텍쳐를 처음부터 설계한다면, 어떤 것들을 고려하고자 하는 지 적어보려고 합니다.
+## If I create a data architecture,
+As described above, we believe that a data engineer should have a well-rounded understanding of the data first and foremost, based on well-developed domain knowledge, so that they can understand the consumer's needs and then design the data architecture accordingly.
+Follow this process carefully to save time refactoring your data architecture to respond to different data demands and changing your data schema occasionally.
+So, if I were designing a data architecture from scratch, here's what I would consider.
 
 ### 1. Understand as much as you can about the data you have right now.
 Data architectures designed without fully understanding the data on your desk are short-lived. As I said above, you need to take the time to understand the data you have and what you need to accomplish by communicating with the consumers of that data.
