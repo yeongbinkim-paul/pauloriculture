@@ -2,12 +2,10 @@
 title: "[DE] Idea for good Data Warehousing (EN)"
 tags:
 - Idea
-- Data Warehousing
-- Data Stage
 - Data Engineering
 - EN
 ---
-
+# Go to Korean Edition [Idea for good Data Warehousing (KR)](notes/data_engineering/idea_for_good_data_warehousing_kr.md)
 
 # Idea for good Data Warehousing (EN)
 A good data engineer should be able to manage a data warehouse well.

@@ -1,0 +1,65 @@
+[404_message]
+other = "이 페이지가 존재하지 않습니다."
+
+[404_back]
+other = "메인으로 돌아가기"
+
+[all_posts]
+other = "전체 {{.Title}}"
+
+[last_updated]
+other = "최신글"
+
+[notes_count]
+other = "notes with this tag"
+
+[first_10]
+other = "최근 10개 글 보기"
+
+[tag]
+other = "태그"
+
+[backlinks]
+other = "Backlinks"
+
+[no_backlinks]
+other = "No backlinks found"
+
+[home]
+other = "메인"
+
+[light_mode]
+other = "라이트 모드"
+
+[dark_mode]
+other = "다크 모드"
+
+[edit_source]
+other = "편집하기"
+
+[interactive_graph]
+other = "그래프로 보기"
+
+[search]
+other = "검색"
+
+[search_icon]
+other = "검색 버튼"
+
+[icon_search]
+other = "Icon to open search"
+
+[recent_notes]
+other = "최근 글"
+
+[first_3_notes]
+other = "첫 3개 {{ .notes }}"
+
+[search_for_something]
+other = "검색 하는 중"
+
+[toc]
+other = "목차"
+
+[copyright]
+other = "Made by {{ .name }} using <a href=\"https://github.com/jackyzha0/quartz\">Quartz</a>, © {{ .year }}"

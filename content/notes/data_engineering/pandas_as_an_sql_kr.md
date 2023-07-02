@@ -1,10 +1,10 @@
 ---
 title: "[DE] Pandas As an SQL (KR)"
 tags:
+- Skill
 - Python
 - SQL
 - Pandas
-- Data Engineering
 - KR
 ---
 

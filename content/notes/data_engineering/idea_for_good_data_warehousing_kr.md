@@ -2,12 +2,10 @@
 title: "[DE] Idea for good Data Warehousing (KR)"
 tags:
 - Idea
-- Data Warehousing
-- Data Stage
 - Data Engineering
 - KR
 ---
-
+# Go to English Edition [Idea for good Data Warehousing (EN)](notes/data_engineering/idea_for_good_data_warehousing_en.md)
 
 # Idea for good Data Warehousing (KR)
 저는 좋은 데이터 엔지니어는 데이터 웨어하우스를 잘 관리할 수 있어야 한다고 생각합니다.

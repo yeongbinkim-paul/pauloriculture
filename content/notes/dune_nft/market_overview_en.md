@@ -1,8 +1,8 @@
 ---
 title: "[Dune] NFT Market Overview Chart Review (EN)"
 tags:
+- Analytics
 - Blockchain
-- NFT
 - SQL
 - Dune
 - EN

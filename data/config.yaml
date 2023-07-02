@@ -1,6 +1,6 @@
 name: Yeongbin Kim (Paul)
 enableToc: true
-openToc: true
+openToc: false
 enableLinkPreview: true
 enableLatex: true
 enableCodeBlockTitle: true
@@ -10,20 +10,16 @@ enableSPA: true
 enableFooter: true
 enableContextualBacklinks: true
 enableRecentNotes: true
-enableGitHubEdit: false
-enableMermaid: true
+enableGitHubEdit: true
 GitHubLink: https://github.com/yeongbinkim-paul/pauloriculture/tree/hugo/content
-search:
-  enableSemanticSearch: true
-  operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
-  operandIndexId: "REPLACE-WITH-YOUR-OPERAND-INDEX-ID"
+enableSemanticSearch: false
+operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
 description:
-  성실한 기록부자를 꿈꿉니다.
-  Dreaming of being a diligent record keeper.
+  "성실한 기록부자를 꿈꿉니다.\n Dreaming of being a diligent record keeper."
 page_title:
   "🪴 Pauloriculture"
 links:
-  - link_name: Twitter
-    link: https://twitter.com/paulkim_bin
   - link_name: GitHub
     link: https://github.com/yeongbinkim-paul
+  - link_name: LinkedIn
+    link: https://www.linkedin.com/in/yeongbin-kim-972635118/
