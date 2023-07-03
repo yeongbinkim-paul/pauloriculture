@@ -43,11 +43,11 @@ However, not all correlations lead to meaningful causal analysis, so data engine
 
 Then you should get ideas of how your data pipeline stores data and how it should be updated.
 
-## If I create a data architecture,
-As described above, we believe that a data engineer should have a well-rounded understanding of the data first and foremost, based on well-developed domain knowledge, so that they can understand the consumer's needs and then design the data architecture accordingly.
-Follow this process carefully to save time refactoring your data architecture to respond to different data demands and changing your data schema occasionally.
+## If I create a data warehouse architecture,
+As described above, we believe that a data engineer should have a well-rounded understanding of the data first and foremost, based on well-developed domain knowledge, so that they can understand the consumer's needs and then design the data warehouse architecture accordingly.
+Follow this process carefully to save time refactoring your data warehouse architecture to respond to different data demands and changing your data schema occasionally.
 
-So, if I were designing a data architecture from scratch, here's what I would consider.
+So, if I were designing a data warehouse architecture from scratch, here's what I would consider.
 
 ### 1. Understand as much as you can about the data you have right now.
 Data architectures designed without fully understanding the data on your desk are short-lived. As I said above, you need to take the time to understand the data you have and what you need to accomplish by communicating with the consumers of that data.
