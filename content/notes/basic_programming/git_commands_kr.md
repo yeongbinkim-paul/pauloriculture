@@ -3,6 +3,7 @@ title: "[Basic] Git Commands (KR)"
 tags:
 - Skill
 - Basic
+- Git
 - KR
 ---
 # Local에서 git 시작하기 / Remote에서 시작하기

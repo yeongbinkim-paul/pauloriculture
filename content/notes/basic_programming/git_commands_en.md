@@ -3,6 +3,7 @@ title: "[Basic] Git Commands (EN)"
 tags:
 - Skill
 - Basic
+- Git
 - EN
 ---
 # Start git / Clone repository
